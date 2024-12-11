@@ -1,0 +1,82 @@
+body{
+    margin: 0 0;
+}
+
+.header {
+    padding: 10px 0 10px 0;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    z-index: auto;
+    position: fixed;
+    top:0;
+}
+
+
+.nav {
+    display: flex;
+    gap: 35px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black
+}
+
+.request {
+    background-image: linear-gradient( to right, lime, teal);
+    text-align:center;
+    display: flex;    
+    border: none;
+    border-radius: 20px;
+    background-color: azure;
+    padding: 10px;
+    width: 130px;
+    height: 50px;
+    align-items: center;
+}
+
+.Main-stage{
+    grid-template-columns: 1fr 1fr;
+}
+
+.words{
+    grid-column: 1/2;
+    margin-top:15.2%;
+    Max-width:350px;
+    padding-left: 40px;
+    color:hsl(233, 26%, 24%);
+}
+
+.Invite{
+     /*background-image: linear-gradient( to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    text-align:center;*/
+    display: flex;    
+    border: none;
+    border-radius: 20px;
+    background-color: azure;
+    padding: 10px;
+    width: 130px;
+    height: 50px;
+    align-items: center;
+    background-image: linear-gradient( to right, lime, teal);
+
+}
+b{
+    font-size: 50px;
+}
+ 
+
+.img1{
+    grid-column: 2/2;
+    /*position:absolute;
+    right: 0;*/
+    float: right;
+    position: relative;
+    right: -700px;
+    top: -400px; /* Move the image up by 20 pixels */
+    margin-bottom: 700px;
+}
+.img2{
+    display: none
+}
