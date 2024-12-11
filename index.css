@@ -7,7 +7,6 @@ body{
     justify-content: space-around;
     display: flex;
     align-items: center;
-    z-index: auto;
     position: fixed;
     top:0;
 }
@@ -76,6 +75,7 @@ b{
     right: -700px;
     top: -400px; /* Move the image up by 20 pixels */
     margin-bottom: 700px;
+    overlay: hidden;
 }
 .img2{
     display: none
